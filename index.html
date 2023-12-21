@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel = "stylesheet" href = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css">
+    <link rel = "stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.min.css" />
+      
+    <script src = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.min.js"></script>
+    
     <title>RCAutoDetailing</title>
 </head>
 <body>
@@ -12,7 +18,7 @@
         <div class="home container">
             <div>
                 <h1>Wellcome to<span></span></h1>
-                <h1>RCHandCarWash<span></span></h1>
+                <h1>RCJ Auto Detail<span></span></h1>
                 <a href="#" type="button" class="cta">Services</a>
             </div>
         </div>
@@ -21,56 +27,201 @@
 
     <!-- Services Section -->
     <section id="services">
-        <div class="services container">
-            <div class="services-top">
-                <h1 class="section-title">Serv<span>i</span>ces</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
-                    elit. Dolor adipisci culpa fugiat sit. Deleniti 
-                    nulla ducimus inventore sed consectetur omnis natus 
-                    quo placeat, similique cumque, et dolor vel dolorem 
-                    porro.</p>
+        <h1 class="title">Serv<span>i</span>ces</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+            elit. Dolor adipisci culpa fugiat sit. Deleniti 
+            nulla ducimus inventore sed consectetur omnis natus 
+            quo placeat, similique cumque, et dolor vel dolorem 
+            porro.</p>
+    
+        <div class="container flex center-text">
+            <div class="column">
+                <div class="icon">
+                    <img src="./img/icons8-car-cleaning-50.png"/>                
+                </div>
+                <h3>Hand Wash</h3>
+                <p class="value">$20</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, eos dicta! Iure at distinctio facilis, fuga veniam nostrum atque tempora repellendus aliquam omnis! Dignissimos nihil labore nulla, fugiat iusto ipsa?</p>
+                <hr>
+                <p>Lorem ipsum donor</p>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <p>Lorem ipsum</p>
+                <hr>
+                <a href="#" class="btn-value">Compra</a>
             </div>
-            <div class="services-bottom">
-                <div class="service-item">
-                    <div class="icon">
-                        <img src="./img/icons8-car-cleaning-50.png"/>
-                        <h2>Hand Washing</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                             Dicta minus animi ipsam error quisquam corporis esse omnis,
-                              aperiam dignissimos tempora.</p>
-                    </div>
+            <div class="column">
+                <div class="icon">
+                    <img src="./img/icons8-car-polishing-64.png"/>                
                 </div>
-                <div class="service-item">
-                    <div class="icon">
-                        <img src="./img/icons8-car-polishing-64.png"/>
-                        <h2>Hand Polishing</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                             Dicta minus animi ipsam error quisquam corporis esse omnis,
-                              aperiam dignissimos tempora.</p>
-                    </div>
+                <h3>Hand Polishing</h3>
+                <p class="value">$20</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, eos dicta! Iure at distinctio facilis, fuga veniam nostrum atque tempora repellendus aliquam omnis! Dignissimos nihil labore nulla, fugiat iusto ipsa?</p>
+                <hr>
+                <p>Lorem ipsum donor</p>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <p>Lorem ipsum</p>
+                <hr>
+                <a href="#" class="btn-value">Compra</a>
+            </div>
+            <div class="column">
+                <div class="icon">
+                    <img src="./img/icons8-seat-50.png"/>                
                 </div>
-                <div class="service-item">
-                    <div class="icon">
-                        <img src="./img/icons8-wheel-50.png"/>
-                        <h2>Wheels Detailing</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                             Dicta minus animi ipsam error quisquam corporis esse omnis,
-                              aperiam dignissimos tempora.</p>
-                    </div>
+                <h3>Interior Cleaning</h3>
+                <p class="value">$20</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, eos dicta! Iure at distinctio facilis, fuga veniam nostrum atque tempora repellendus aliquam omnis! Dignissimos nihil labore nulla, fugiat iusto ipsa?</p>
+                <hr>
+                <p>Lorem ipsum donor</p>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <p>Lorem ipsum</p>
+                <hr>
+                <a href="#" class="btn-value">Compra</a>
+            </div>
+            <div class="column">
+                <div class="icon">
+                    <img src="./img/icons8-wheel-50.png"/>                
                 </div>
-                <div class="service-item">
-                    <div class="icon">
-                        <img src="./img/icons8-seat-50.png"/>
-                        <h2>Seat Clening</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                             Dicta minus animi ipsam error quisquam corporis esse omnis,
-                              aperiam dignissimos tempora.</p>
-                    </div>
-                </div>
-            </div>            
-        </div>
+                <h3>Wheel Detailing</h3>
+                <p class="value">$20</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, eos dicta! Iure at distinctio facilis, fuga veniam nostrum atque tempora repellendus aliquam omnis! Dignissimos nihil labore nulla, fugiat iusto ipsa?</p>
+                <hr>
+                <p>Lorem ipsum donor</p>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <p>Lorem ipsum</p>
+                <hr>
+                <a href="#" class="btn-value">Compra</a>
+            </div>       
         </div>
     </section>
     <!-- End Services Section -->
+    <!-- About us Section -->
+    <section id="about">        
+        <h1 class="title">Abo<span>u</span>t Us</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+            elit. Dolor adipisci culpa fugiat sit. Deleniti 
+            nulla ducimus inventore sed consectetur omnis natus 
+            quo placeat, similique cumque, et dolor vel dolorem 
+            porro.</p>
+        <div id = "map"></div>
+        <div class="container flex">            
+            <div class="column">
+                <div class="icon">
+                    <a href="#"><img src="./img/icons8-lista-corta-100.png" alt="Booking"/></a>                
+                </div>
+                <h2>Satasuma Agency</h2>
+                <h3>Satasuma Road & St. Doctor</h3>
+                <h3>Huston Tx</h3>
+                <p>346-610-1714</p>
+            </div>
+            <div class="column">
+                <div class="icon">
+                    <a href="#"><img src="./img/icons8-lista-corta-100.png" alt="Booking"/></a>           
+                </div>
+                <h2>Satasuma Agency</h2>
+                <h3>Satasuma Road & St. Doctor</h3>
+                <h3>Huston Tx</h3>
+                <p>346-610-1714</p>
+            </div>
+            <div class="column">
+                <div class="icon">
+                    <a href="#"><img src="./img/icons8-lista-corta-100.png" alt="Booking"/></a>                 
+                </div>
+                <h2>Satasuma Agency</h2>
+                <h3>Satasuma Road & St. Doctor</h3>
+                <h3>Huston Tx</h3>
+                <p>346-610-1714</p>
+            </div>
+        </div>
+    </section>
+    <!-- End About us Section -->
+
+    <!-- Gallery Section -->
+    <section id="gallery">        
+        <h1 class="title">Gal<span>l</span>ery</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+            elit. Dolor adipisci culpa fugiat sit. Deleniti 
+            nulla ducimus inventore sed consectetur omnis natus 
+            quo placeat, similique cumque, et dolor vel dolorem 
+            porro.</p>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="img/Car_Wash_1.png" alt="CW1">
+                <div class="text">Caption One</div>
+            </div>
+        
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="img/Car_Wash_2.png" alt="CW2">
+                <div class="text">Caption Two</div>
+            </div>
+        
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="img/Car_Wash_3.png" alt="CW3">
+                <div class="text">Caption Three</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <div class="dot-menu">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+    </section>
+    <!-- End Gallery Section -->
+
+    <!-- Scripts Section -->
+    <script>
+        const x = document.getElementById("demo");
+        let cLat = 0;
+        let cLon = 0;
+     
+        // Centert map and set zoom
+        const mapOptions = {
+             center: [29.72442,-95.39063],
+             zoom: 10
+         }
+     
+         // Markers pinpoint and popup text
+         const markers = [
+      [-95.64577,29.78861,'Satasuma Agency<br><a href=\"https://www.google.com/search?q=rcj+auto+detail+%2B+satasuma+road+%2B+houston+tx&sca_esv=591940846&sxsrf=AM9HkKmJ90umz-6l-Br1qU-gUtQmG_AhTA%3A1702928905841&ei=CaKAZebfMq2zqtsPkbm42AQ&ved=0ahUKEwimiIrE4JmDAxWtmWoFHZEcDksQ4dUDCBA&uact=5&oq=rcj+auto+detail+%2B+satasuma+road+%2B+houston+tx&gs_lp=Egxnd3Mtd2l6LXNlcnAaAhgDIixyY2ogYXV0byBkZXRhaWwgKyBzYXRhc3VtYSByb2FkICsgaG91c3RvbiB0eEiJeVCNDViXdXAEeAGQAQCYAasCoAHqCaoBAzItNbgBA8gBAPgBAcICChAAGEcY1gQYsAPCAgcQIxiwAhgn4gMEGAAgQYgGAZAGAg&sclient=gws-wiz-serp#\">Google Reviews</a>'],
+      [-95.59791,29.74131, 'Shadowbriar Agency'],
+      [-95.07787,29.53261,'League City Agency<br><a href=\"https://www.gstatic.com/images/icons/material/system/1x/directions_gm_blue_18dp.png">How to arrive</a>']
+    ];
+         
+         // Creating a map object
+         const map = new L.map('map', mapOptions);
+         
+         // Creating a Layer object
+         const layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
+     
+         // Adding layer to the map
+         map.addLayer(layer);
+     
+         // Add markers
+         markers.forEach(m => {
+           const lon = m[0];
+           const lat = m[1];
+           const text = m[2];
+     
+           const markerLocation = new L.LatLng(lat,lon);
+           const marker = new L.Marker(markerLocation);
+     
+           // Add marker layer to the map
+           map.addLayer(marker);
+     
+           // Add popup layer text
+           marker.bindPopup(text);
+         });
+     
+         // Add location control to the map
+         L.control.locate().addTo(map);        
+     </script>
+     <script src="./scripts.js"></script>
+    <!-- End Scripts Section -->
 </body>
 </html>
