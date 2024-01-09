@@ -192,13 +192,122 @@ p{
 #services .value {
     font-size: 50px;
     color: crimson;
+    background: none;
     margin: 10px 0;
+    cursor: pointer;    
 }
+
+/* Modal */
+#basic-dialog{
+    position: absolute;;
+    margin-left: 35%;
+    margin-top: 30%;
+    width: 30%;
+    height: 180px;
+    background-color: hsl(50 33% 25% / 75%); /* 75% opaque, i.e. 25% transparent */
+    border-radius: 5px;
+    box-shadow: inset;
+}
+#basic-dialog header p{
+    color: crimson;
+    font-size: 2.1em;
+}
+#basic-dialog article span {
+    color: crimson;
+}
+#basic-dialog footer button{
+    margin: 10px;
+    font-family: 'Aero', sans-serif;
+    font-size: 1.8em;
+    padding: 5px;
+    background-color: crimson;
+    color: white;
+}
+
+#premium-dialog{
+    position: absolute;;
+    margin-left: 35%;
+    margin-top: 30%;
+    width: 30%;
+    height: 180px;
+    background-color: hsl(50 33% 25% / 75%); /* 75% opaque, i.e. 25% transparent */
+    border-radius: 5px;
+    box-shadow: inset;
+}
+#premium-dialog header p{
+    color: crimson;
+    font-size: 2.1em;
+}
+#premium-dialog article span {
+    color: crimson;
+}
+#premium-dialog footer button{
+    margin: 10px;
+    font-family: 'Aero', sans-serif;
+    font-size: 1.8em;
+    padding: 5px;
+    background-color: crimson;
+    color: white;
+}
+
+#sPremium-dialog{
+    position: absolute;;
+    margin-left: 35%;
+    margin-top: 30%;
+    width: 30%;
+    height: 180px;
+    background-color: hsl(50 33% 25% / 75%); /* 75% opaque, i.e. 25% transparent */
+    border-radius: 5px;
+    box-shadow: inset;
+}
+#sPremium-dialog header p{
+    color: crimson;
+    font-size: 2.1em;
+}
+#sPremium-dialog article span {
+    color: crimson;
+}
+#sPremium-dialog footer button{
+    margin: 10px;
+    font-family: 'Aero', sans-serif;
+    font-size: 1.8em;
+    padding: 5px;
+    background-color: crimson;
+    color: white;
+}
+
+#mobile-dialog{
+    position: absolute;;
+    margin-left: 35%;
+    margin-top: 30%;
+    width: 30%;
+    height: 180px;
+    background-color: hsl(50 33% 25% / 75%); /* 75% opaque, i.e. 25% transparent */
+    border-radius: 5px;
+    box-shadow: inset;
+}
+#mobile-dialog header p{
+    color: crimson;
+    font-size: 2.1em;
+}
+#mobile-dialog article span {
+    color: crimson;
+}
+#mobile-dialog footer button{
+    margin: 10px;
+    font-family: 'Aero', sans-serif;
+    font-size: 1.8em;
+    padding: 5px;
+    background-color: crimson;
+    color: white;
+}
+/* End Modal */
 #services .btn-value {
     display: block;
     background-color: salmon;
     color: wheat;
     text-decoration: none;
+    font-size: 1.5em;
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -216,6 +325,22 @@ p{
     #services .column{
         width: 100%;
         margin-bottom: 20px;
+    }
+    #basic-dialog{
+        width: 80%;
+        margin-left: 10%;
+    }
+    #premium-dialog{
+        width: 80%;
+        margin-left: 10%;
+    }
+    #sPremium-dialog{
+        width: 80%;
+        margin-left: 10%;
+    }
+    #mobile-dialog{
+        width: 80%;
+        margin-left: 10%;
     }
 }
 /* End Services Section */

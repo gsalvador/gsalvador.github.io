@@ -36,14 +36,31 @@
             every datail of your car, we offer hand wash and polish, interior
             cleaning, wheels detailing, headlights detailing. We make your car
             looks like new on every wash. And now, we go where you are, call us
-            or book with the nearest washing agency.</p>    
-        <div class="container flex center-text">
+            or book with the nearest washing agency.</p>                   
+        <div class="container flex center-text">                     
             <div class="column">
                 <div class="icon">
                     <img src="./img/icons8-car-cleaning-50.png"/>                
                 </div>
-                <h3>Basic Service</h3>
-                <p class="value">$20</p>
+                <h3>Basic Service</h3>                                
+                <a href="#" onclick="showDialog('basic-dialog'); return false;" class="value">See Prices</a>
+                <dialog id="basic-dialog" class="dialog">
+                    <form method="dialog">
+                        <header>
+                            <p>Basic Service</p>
+                        </header>
+                        <article>
+                            <p>Car:      <span>$20</span></p>
+                            <p>Truck:    <span>$25</span></p>
+                            <p>Big Truck:<span>$30</span></p>
+                        </article>
+                        <footer>
+                            <menu>
+                                <button autofocus type="reset" onclick="this.closest('dialog').close('cancel')">Close</button>
+                            </menu>
+                        </footer>
+                    </form>                  
+                </dialog>                
                 <p>On our basic service we care of the exterior of your car:<br>&#8203;<br>&#8203;</p>
                 <hr>
                 <p>FOAM WASH</p>
@@ -57,14 +74,31 @@
                 <p>&#8203;</p>
                 <p>&#8203;</p>
                 <hr>
-                <a href="#" class="btn-value">Compra</a>
+                <a href="#" class="btn-value">Booking</a>
             </div>
             <div class="column">
                 <div class="icon">
                     <img src="./img/icons8-car-polishing-64.png"/>                
                 </div>
                 <h3>Premium Service</h3>
-                <p class="value">$60</p>
+                <a href="#" onclick="showDialog('premium-dialog'); return false;" class="value">See Prices</a>
+                <dialog id="premium-dialog" class="dialog">
+                    <form method="dialog">
+                        <header>
+                            <p>Premium Service</p>
+                        </header>
+                        <article>
+                            <p>Car:      <span>$30</span></p>
+                            <p>Truck:    <span>$40</span></p>
+                            <p>Big Truck:<span>$50</span></p>
+                        </article>
+                        <footer>
+                            <menu>
+                                <button autofocus type="reset" onclick="this.closest('dialog').close('cancel')">Close</button>
+                            </menu>
+                        </footer>
+                    </form>                  
+                </dialog> 
                 <p>On our premium service we care of both exterior and interior of your loved machine:<br>&#8203;</p>
                 <hr>
                 <p>FOAM WASH</p>
@@ -78,14 +112,31 @@
                 <p>&#8203;</p>
                 <p>&#8203;</p>
                 <hr>
-                <a href="#" class="btn-value">Compra</a>
+                <a href="#" class="btn-value">Booking</a>
             </div>
             <div class="column">
                 <div class="icon">
                     <img src="./img/icons8-seat-50.png"/>                
                 </div>
                 <h3>Super Premium Service</h3>
-                <p class="value">$120</p>
+                <a href="#" onclick="showDialog('sPremium-dialog'); return false;" class="value">See Prices</a>
+                <dialog id="sPremium-dialog" class="dialog">
+                    <form method="dialog">
+                        <header>
+                            <p>Super Premium Service</p>
+                        </header>
+                        <article>
+                            <p>Car:      <span>$45</span></p>
+                            <p>Truck:    <span>$60</span></p>
+                            <p>Big Truck:<span>$75</span></p>
+                        </article>
+                        <footer>
+                            <menu>
+                                <button autofocus type="reset" onclick="this.closest('dialog').close('cancel')">Close</button>
+                            </menu>
+                        </footer>
+                    </form>                  
+                </dialog>
                 <p>On our super premium service we care of exterior, interior and every single detail of your car cleaning, we make your car shine like new!</p>
                 <hr>
                 <p>FOAM WASH</p>
@@ -99,14 +150,31 @@
                 <p>SEALENT</p>
                 <p>DOWN</p>
                 <hr>
-                <a href="#" class="btn-value">Compra</a>
+                <a href="#" class="btn-value">Booking</a>
             </div>
             <div class="column">
                 <div class="icon">
                     <img src="./img/icons8-wheel-50.png"/>                
                 </div>
                 <h3>Mobile Service</h3>
-                <p class="value">$50</p>
+                <a href="#" onclick="showDialog('mobile-dialog'); return false;" class="value">See Prices</a>
+                <dialog id="mobile-dialog" class="dialog">
+                    <form method="dialog">
+                        <header>
+                            <p>Mobile Service</p>
+                        </header>
+                        <article>
+                            <p>Car:      <span>$25</span></p>
+                            <p>Truck:    <span>$30</span></p>
+                            <p>Big Truck:<span>$35</span></p>
+                        </article>
+                        <footer>
+                            <menu>
+                                <button autofocus type="reset" onclick="this.closest('dialog').close('cancel')">Close</button>
+                            </menu>
+                        </footer>
+                    </form>                  
+                </dialog>  
                 <p>Same as our basic service, but with the comfort that we go where your are!!. Just call us or book with our nearest washing agency!!</p>
                 <hr>
                 <p>FOAM WASH</p>
@@ -120,9 +188,9 @@
                 <p>&#8203;</p>
                 <p>&#8203;</p>
                 <hr>
-                <a href="#" class="btn-value">Compra</a>
+                <a href="#" class="btn-value">Booking</a>
             </div>       
-        </div>
+        </div>       
     </section>
     <!-- End Services Section -->
     <!-- About us Section -->
@@ -169,7 +237,7 @@
                 <h3>Huston Tx</h3>
                 <p>832-589-5976</p>
             </div>
-        </div>
+        </div>        
     </section>
     <!-- End About us Section -->
 
@@ -185,19 +253,19 @@
             <div class="mySlides fade">
                 <div class="numbertext">1 / 3</div>
                 <img src="img/Car_Wash_1.png" alt="CW1">
-                <div class="text">Caption One</div>
+                <div class="text">Hand Wash</div>
             </div>
         
             <div class="mySlides fade">
                 <div class="numbertext">2 / 3</div>
                 <img src="img/Car_Wash_2.png" alt="CW2">
-                <div class="text">Caption Two</div>
+                <div class="text">Windows Cleaning</div>
             </div>
         
             <div class="mySlides fade">
                 <div class="numbertext">3 / 3</div>
                 <img src="img/Car_Wash_3.png" alt="CW3">
-                <div class="text">Caption Three</div>
+                <div class="text">Interior Detailing</div>
             </div>
             <a class="prev" onclick="plusSlides(-1)">❮</a>
             <a class="next" onclick="plusSlides(1)">❯</a>
@@ -210,54 +278,20 @@
         </div>
     </section>
     <!-- End Gallery Section -->
-
+    <section id="footer">
+        <div class="footer container">
+            <div class="brand">
+                <h1><span>RJC</span> Auto Detail</h1>
+                <h2>Your Car Hand Wash Service</h2>
+                <div class="social-icons">
+                    <div class="social-item">
+                        <a href="#"><img src=""</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Scripts Section -->
-    <script>
-        const x = document.getElementById("demo");
-        let cLat = 0;
-        let cLon = 0;
-     
-        // Centert map and set zoom
-        const mapOptions = {
-             center: [29.72442,-95.39063],
-             zoom: 10
-         }
-     
-         // Markers pinpoint and popup text
-         const markers = [
-      [-95.64577,29.78861,'Satasuma Agency<br><a href=\"https://www.google.com/search?q=rcj+auto+detail+%2B+satasuma+road+%2B+houston+tx&sca_esv=591940846&sxsrf=AM9HkKmJ90umz-6l-Br1qU-gUtQmG_AhTA%3A1702928905841&ei=CaKAZebfMq2zqtsPkbm42AQ&ved=0ahUKEwimiIrE4JmDAxWtmWoFHZEcDksQ4dUDCBA&uact=5&oq=rcj+auto+detail+%2B+satasuma+road+%2B+houston+tx&gs_lp=Egxnd3Mtd2l6LXNlcnAaAhgDIixyY2ogYXV0byBkZXRhaWwgKyBzYXRhc3VtYSByb2FkICsgaG91c3RvbiB0eEiJeVCNDViXdXAEeAGQAQCYAasCoAHqCaoBAzItNbgBA8gBAPgBAcICChAAGEcY1gQYsAPCAgcQIxiwAhgn4gMEGAAgQYgGAZAGAg&sclient=gws-wiz-serp#\">Google Reviews</a>'],
-      [-95.59791,29.74131, 'Shadowbriar Agency'],
-      [-95.07787,29.53261,'League City Agency<br><a href=\"https://www.gstatic.com/images/icons/material/system/1x/directions_gm_blue_18dp.png">How to arrive</a>']
-    ];
-         
-         // Creating a map object
-         const map = new L.map('map', mapOptions);
-         
-         // Creating a Layer object
-         const layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
-     
-         // Adding layer to the map
-         map.addLayer(layer);
-     
-         // Add markers
-         markers.forEach(m => {
-           const lon = m[0];
-           const lat = m[1];
-           const text = m[2];
-     
-           const markerLocation = new L.LatLng(lat,lon);
-           const marker = new L.Marker(markerLocation);
-     
-           // Add marker layer to the map
-           map.addLayer(marker);
-     
-           // Add popup layer text
-           marker.bindPopup(text);
-         });
-     
-         // Add location control to the map
-         L.control.locate().addTo(map);        
-     </script>
      <script src="./scripts.js"></script>
     <!-- End Scripts Section -->
 </body>
